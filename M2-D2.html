@@ -29,6 +29,14 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
     <!-- IMPORT ALL THE BOOTSTRAP RELATED CSS & SCRIPTS-->
 
     <style>
+
+      body {
+        background-color: rgb(37, 36, 36);
+      }
+
+    
+
+      
         /* EXERCISE 1
             For every Album displayed in the page we'd like to have a consistent appearence.
             Create the template of an Album component (you can start from a bootstrap one or create your own)
@@ -99,9 +107,10 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
     
     <div class="container my-4">
         <div class="row d-flex ">
-                <h2 class="col-12"> All Time Favorite Albums</h2>
+
+                <h2 class="col-12 text-center text-white"> All Time Favorite Albums</h2>
             <div class="col-sm-6 col-md-4 col-lg-3 py-2">
-                <div class="card" >
+                <div class="card " >
                     <img class="card-img-top" src="https://img.discogs.com/3n1Ydgzu_qqp5TC9Sb27chVDGe8=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-176146-1306408713.jpeg.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -160,13 +169,72 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                     </div>
                 </div>
             </div>
-
-
-
-
-
+            <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+              <div class="card">
+                  <img class="card-img-top" src="https://i.scdn.co/image/ab67616d0000b27374dc897ea75402db37ef239a" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+              <div class="card">
+                  <img class="card-img-top" src="https://i.scdn.co/image/ab67616d0000b2736f3c2451998194766fcf2399" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+            </div>
+            
         </div>
-    </div>        
+        <!-- Exercise 4-->
+        <div class="row d-flex my-4">
+          <h2 class="col-12 text-center text-white mb-3">Album Reviews</h2>
+          <div class="col">
+            <div class="card-group">
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b2731da48f20eb53188a273eee4e" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b2733a76edacefe2e7a589222787" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273045fc920ecf4f8094888ec26" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    </div> 
+    
+     
 
     <!-- EXERCISE 4
             Create a section for the album reviews.
